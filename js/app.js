@@ -4,7 +4,7 @@
 
 import {openModal, closeModal} from './modal.js'
 
-import {creatClients, readClients, deleteClients, 
+import {createClients, readClients, deleteClients, 
 readClientById, fillFormClients, updateClients} from './client.js' 
 
 const creatRow = (clients) =>{

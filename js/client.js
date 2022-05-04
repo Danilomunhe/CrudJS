@@ -29,7 +29,7 @@ export const fillFormClients = (client) =>{
 
 }
 
-const creatClients = async(client) =>{
+const createClients = async(client) =>{
 
     const options = {
         method: 'POST',
@@ -68,5 +68,5 @@ const deleteClients = async(id) =>{
 }
 
 export{
-    readClients, creatClients, deleteClients
+    readClients, createClients, deleteClients
 }
